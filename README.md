@@ -1,1 +1,1 @@
-To view a live demo, [click here](https://jeonaeran.jeonaeran.io/).
+To view a live demo, [click here](https://jeonaeran.github.io/portfolio-jar/)
