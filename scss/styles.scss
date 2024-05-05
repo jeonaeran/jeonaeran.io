@@ -446,16 +446,12 @@ footer {
 */
 
 #about {
-    padding: 75px 15px;
+    padding: 50px 15px;
+    text-align: center;
     border-bottom: 1px solid $border;
 
     h2 {
         color: $heading;
-    }
-
-    p {
-        color: $text;
-        margin: 0;
     }
 }
 
