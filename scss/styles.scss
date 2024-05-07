@@ -18,7 +18,7 @@
         3. Global Styles
         4. Lead Styles
         5. About Styles
-        6. Experience Styles
+        6. awards Styles
         7. Education Styles
         8. Project Styles
         9. Skills Styles
@@ -463,113 +463,66 @@ footer {
 
 /*
     --------------------------------
-    ----- 6. Experience Styles -----
+    ----- 6. awards Styles -----
     --------------------------------
 */
 
-#experience {
+#awards {
     padding: 50px 15px;
-    text-align: center;
     border-bottom: 1px solid $border;
+    text-align: center;
 
     h2 {
         color: $heading;
+        margin-bottom: 50px;
     }
 }
 
-#experience-timeline {
-    margin: 30px auto 0 auto;
+.awards {
     position: relative;
-    max-width: 1000px;
-
-    &:before {
-        position: absolute;
-        content: '';
-        top: 0;
-        bottom: 0;
-        left: 303px;
-        right: auto;
-        height: 100%;
-        width: 3px;
-        background: $base-color;
-        z-index: 0;
-    }
-
-    &:after {
-        position: absolute;
-        content: '';
-        width: 3px;
-        height: 40px;
-        background: $base-color;
-        background: linear-gradient(to bottom, $base-color, rgba($base-color, 0));
-        top: 100%;
-        left: 303px;
-    }
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
 }
 
-.vtimeline-content {
-    margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+.awards-image {
+    float: left;
+}
+
+.awards-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
     padding: 15px;
-    border-radius: 3px;
-    text-align: left;
 
     h3 {
-        font-size: 1.5em;
+        font-size: 1.0em;
         font-weight: 300;
         color: $heading;
-        display: inline-block;
-        margin: 0;
-    }
-
-    h4 {
-        font-size: 1.2em;
-        font-weight: 300;
-        color: #7e8890;
         margin: 0 0 15px 0;
     }
 
     p {
         color: $text;
-        font-size: 0.9em;
+        margin: 0 0 15px 0;
+        font-size: 0.5em;
+    }
+}
+
+.no-image {
+    .awards-info {
+        position: relative;
         margin: 0;
+        padding: 30px 15px;
+        transform: none;
     }
 }
 
-.vtimeline-point {
-    position: relative;
-    display: block;
-    vertical-align: top;
-    margin-bottom: 30px;
-}
-
-.vtimeline-icon {
-    position: relative;
-    color: #fff;
-    width: 50px;
-    height: 50px;
-    background: $base-color;
-    border-radius: 50%;
-    float: left;
-    z-index: 99;
-    margin-left: 280px;
-
-    i {
-        display: block;
-        font-size: 2em;
-        margin-top: 10px;
-    }
-}
-
-.vtimeline-date {
-    width: 260px;
-    text-align: right;
-    position: absolute;
-    left: 0;
-    top: 10px;
-    font-weight: 300;
-    color: #374054;
+#more-awards {
+    display: none;
 }
 
 /*
