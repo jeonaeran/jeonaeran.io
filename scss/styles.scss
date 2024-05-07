@@ -85,8 +85,9 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Poor Story", system-ui;
     font-size: 16px;
+    font-style: normal;
 
     &.active {
         overflow: hidden;
