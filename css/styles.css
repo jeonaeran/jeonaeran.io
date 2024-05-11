@@ -400,7 +400,7 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
-    padding: 0px
+    text-align: left
 }
 
 .awards-info h3 {
@@ -505,7 +505,7 @@ footer {
     top: 50%;
     transform: translateY(-50%);
     margin-left: 300px;
-    padding: 0px
+    text-align: left
 }
 
 .project-info h3 {
