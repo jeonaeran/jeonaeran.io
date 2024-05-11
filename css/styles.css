@@ -361,12 +361,13 @@ footer {
 }
 
 #about h2 {
-    color: #374054
+    color: #374054;
+    text-align: center
 }
 
 #about p {
     color: #74808a;
-    margin: 0
+    text-align: center
 }
 
 #awards {
@@ -405,7 +406,7 @@ footer {
     font-size: 1.5em;
     font-weight: 300;
     color: #374054;
-    margin: 0 0 15px 0
+    margin: 0 0 0 0
 }
 
 .awards-info p {
@@ -510,7 +511,7 @@ footer {
     font-size: 1.5em;
     font-weight: 300;
     color: #374054;
-    margin: 0 0 15px 0
+    margin: 0 0 0 0
 }
 
 .project-info p {
